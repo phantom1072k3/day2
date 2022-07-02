@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Description */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* First Division with Cover */
+
+.cover{
+    width: 100vw;
+    height: fit-content;
+    padding-top: 2vh;
+    background-color: aqua;
+}
+
+.cover ul{
+    margin-left: 10vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+.cover ul .title{
+    margin: auto 10vw;
+    text-align: center;
+}
+.cover ul .title #titleName{
+    font-size: xxx-large;
+}
+.cover ul .title #titleDescription{
+    font-size: xx-large;
+}
+.cover ul .title #viewWork{
+    font-size: large;
+    text-decoration: none;
+    color: rgb(184, 24, 24);
+    border: 3px solid white;
+    border-radius: 100vh;
+    padding: 3px;
+}
+.cover ul .title #viewWork:hover{
+    cursor: grab;
+    color: blue
+}
+.cover ul .title a{
+    padding-top: 500vh;
+}
+
+.cover ul .image #backGroundImage{
+    width: 20vw;
+    height: 70vh;
+}
+
+/* Second Division with two photos */
+
+.manali{
+    width: 100vw;
+    height: fit-content;
+    padding-top: 2vh;
+    background-color: aqua;
+}
+.manali .mnlic{
+    width: 80vw;
+}
+.manali .mnlic img{
+    width: 80vw;
+    height: fit-content;
+}
+.manali .mnlic h1{
+    text-align: center;
+    background-color: white;
+}
+.manali .mnlic p{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(14, 14, 85);
+    background-color: white;
+}
+
+/* Third Division with single photo */
+
+.room{
+    width: 100vw;
+    height: fit-content;
+    padding-top: 2vh;
+    background-color: aqua;
+}
+.room .roomd{
+    width: 80vw;
+}
+.room #thirdImage{
+    width: 80vw;
+    height: fit-content;
+}
+.room p{
+    text-align: center;
+    font-size: x-large;
+    background-color: bisque;
+}
+
+/* Fourth Division with single photo */
+
+.scene{
+    width: 100vw;
+    height: fit-content;
+    padding-top: 2vh;
+    background-color: aqua;
+}
+.scene .scened{
+    width: 80vw;
+    height: fit-content;
+}
+.scene #fourthImage{
+    width: 80vw;
+    height: fit-content;
+}
+.scene p{
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: x-large;
+}
